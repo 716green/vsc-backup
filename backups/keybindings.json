@@ -1,0 +1,62 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+cmd+/",
+    "command": "surround.with.comment"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+enter",
+    "command": "workbench.action.toggleFullScreen"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "-workbench.action.toggleFullScreen"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "vue3snippets.format",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'vue'"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-vue3snippets.format",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'vue'"
+  },
+  {
+    "key": "alt+v",
+    "command": "vue-helper.pxRem",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+z",
+    "command": "-vue-helper.pxRem",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+enter",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+enter",
+    "command": "extension.jumpy-exit",
+    "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+  {
+    "key": "Escape",
+    "command": "extension.jumpy-exit",
+    "when": "editorTextFocus && jumpy.isJumpyMode"
+  },
+  {
+    "key": "cmd+n", // "ctrl+n" on windows
+    "command": "extension.advancedNewFile"
+  }
+]
